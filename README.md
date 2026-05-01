@@ -11,7 +11,7 @@ Current focus :
 - Assembly language specification
 - Assembler implementation
 
-## Overview
+## Overview
 
 This project is organized around a custom 16-bit architecture.
 
