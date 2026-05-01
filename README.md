@@ -31,6 +31,14 @@ Assembler
 Emulator
 ```
 
+Current instruction set :
+- 16-bit fixed-size ISA
+- 16 registers R0 to R15
+- 12 defined opcodes
+- ALU instructions use 3-register encoding
+- LOAD uses register + 8-bit immediate
+- JUMP and JUMPIF use 12-bit absolute addresses
+
 ## Goals
 
 - Define a custom 16-bit ISA
