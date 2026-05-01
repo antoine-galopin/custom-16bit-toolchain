@@ -51,7 +51,7 @@ Each register is encoded on 4 bits
 
 ## Flags
 
-One z flag, set to 1 when the result of the last ALU operation is 0, otherwise 0.
+One Z flag, set to 1 when the result of the last ALU operation is 0, otherwise 0.
 
 ## Memory model
 
