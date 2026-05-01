@@ -49,6 +49,14 @@ The architecture currently defines 16 general-purpose registers :
 - R15
 Each register is encoded on 4 bits
 
+## Flags
+
+One z flag, set to 1 when the result of the last ALU operation is 0, otherwise 0.
+
+## Memory model
+
+4096 16-bit words, word-addressed, shared for instructions and data, addresses from 0 to 4095
+
 ## Execution model
 
 The processor executes instructions using a basic fetch-decode-execute cycle :
