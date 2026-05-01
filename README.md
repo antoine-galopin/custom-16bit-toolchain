@@ -11,6 +11,26 @@ Current focus :
 - Assembly language specification
 - Assembler implementation
 
+## Overview
+
+This project is organized around a custom 16-bit architecture.
+
+Planned toolchain :
+
+```text
+C-like source code
+    ↓
+Compiler
+    ↓
+Custom assembly
+    ↓
+Assembler
+    ↓
+16-bit binary
+    ↓
+Emulator
+```
+
 ## Goals
 
 - Define a custom 16-bit ISA
