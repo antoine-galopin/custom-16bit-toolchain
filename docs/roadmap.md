@@ -1,6 +1,6 @@
 # Roadmap
 
-## Phase 1 - ISA
+## Phase 1 - ISA
 
 - Define registers
 - Define flags
