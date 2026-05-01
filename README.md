@@ -28,4 +28,4 @@ assembler/   Assembler source code and tests
 compiler/    Compiler source code and tests
 emulator/    Emulator source code and tests
 examples/    Example programs
-tests/       Integration tests```
+tests/       Integration tests
