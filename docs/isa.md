@@ -12,7 +12,7 @@ This first version focuses on :
 - arithmetic and logic instructions
 - immediate loading
 - control flow
-- a minimal exection model suitable for an assembler and emulator
+- a minimal execution model suitable for an assembler and emulator
 
 ## Global assumptions
 
@@ -24,8 +24,8 @@ This first version focuses on :
 - Register names : R0 to R15
 - Program counter : PC
 - The program counter points to the next instruction
-- After a normer instruction, PC increments by 1
-- JUMP and JUMPIF replace PC with the target adress
+- After a normal instruction, PC increments by 1
+- JUMP and JUMPIF replace PC with the target address
 - JUMPIF uses the zero result of the last ALU operation
 
 ## Register model
@@ -94,7 +94,7 @@ Bit layout :
 - bits 7..4 : source register 1
 - bits 3..0 : source register 2
 Form :
-- OP RD RS1 RS
+- OP RD RS1 RS2
 Example :
 - ADD R3 R1 R2
 Meaning :
@@ -108,7 +108,7 @@ Bit layout :
 - bits 11..8 : destination register
 - bits 7..0 : 8-bit immediate value
 Form :
-- LOAD RD IMMB
+- LOAD RD IMM8
 Example :
 - LOAD R1 42
 Meaning :
