@@ -1,28 +1,23 @@
-# .gitignore for custom-16bit-toolchain
-
-# Python cache and bytecode
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
+*.py[codz]
 *$py.class
 
-# Virtual environment
-venv/
-
-# Python test cache
-.pytest_cache/
-
-# Editor settings
-.vscode/
+# C extensions
+*.so
 
 # Distribution / packaging
 .Python
 build/
+develop-eggs/
 dist/
+downloads/
+eggs/
 .eggs/
-*.egg-info/
-
-# Misc
-*.log
+lib/
+lib64/
+parts/
+sdist/
 var/
 wheels/
 share/python-wheels/
