@@ -37,11 +37,10 @@ HALT
 
 ### Register syntax
 - R0 to R15
-- Uppercase only
+- Case-insensitive
 
 ### Numeric literals
-- Decimal only (0-4095)
-- No prefixes/suffixes
+- Decimal, hexadecimal (0x prefix), or binary (0b prefix) (0-4095)
 - No negative numbers
 
 ## Labels
