@@ -1,4 +1,4 @@
-; Multiply 3 by 4 using repeated addition
+; Multiply 4 by 5 using repeated addition
 ; Result will be stored in R3
 
 start:
