@@ -170,7 +170,5 @@ Not yet defined :
 - stack operations
 - function call conventions
 - relative jumps
-- labels
-- comments
 - binary file format details
 - endianness rules for exported files
