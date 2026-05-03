@@ -6,7 +6,9 @@ def normalize_line(line):
     return line.split(';', 1)[0].strip()
 
 def tokenize(line):
-    parts = re.split(r'[\s,]+', line.strip())
+    if ',' in line:
+        raise ValueError('Commas are not allowed in instruction operands')
+    parts = line.strip().split()
     return [part for part in parts if part]
 
 def parse_immediate(value):

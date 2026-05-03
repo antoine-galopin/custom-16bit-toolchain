@@ -1,3 +1,4 @@
+import pytest
 from assembler.src.parser import normalize_line, tokenize, parse_immediate
 
 def test_normalize_line_removes_comment():
@@ -9,8 +10,9 @@ def test_normalize_line_trims_whitespace():
 def test_tokenize_instruction():
     assert tokenize("ADD R3 R1 R2") == ["ADD", "R3", "R1", "R2"]
 
-def test_tokenize_with_commas():
-    assert tokenize("ADD R3, R1, R2") == ["ADD", "R3", "R1", "R2"]
+def test_tokenize_rejects_commas():
+    with pytest.raises(ValueError, match="Commas are not allowed"):
+        tokenize("ADD R3, R1, R2")
 
 def test_parse_decimal_immediate():
     assert parse_immediate("42") == 42
