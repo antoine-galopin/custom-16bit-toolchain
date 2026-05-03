@@ -40,8 +40,11 @@ HALT
 - Case-insensitive
 
 ### Numeric literals
-- Decimal, hexadecimal (0x prefix), or binary (0b prefix) (0-4095)
+- Decimal, hexadecimal (0x prefix), or binary (0b prefix)
 - No negative numbers
+- Values must fit the target instruction field:
+  - `LOAD`: 0–255
+  - `JUMP` / `JUMPIF`: 0–4095
 
 ## Labels
 
