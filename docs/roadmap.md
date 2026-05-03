@@ -33,14 +33,14 @@
 - [x] Implement binary generation
 - [x] Add unit tests
 
-## Next work
-
 ### Phase 4 - Emulator
 - [x] Design binary loader
 - [x] Implement fetch / decode / execute loop
 - [x] Implement registers and memory
 - [x] Add execution traces
 - [x] Add integration tests
+
+## Next work
 
 ### Phase 5 - C-like language
 - [ ] Define grammar
