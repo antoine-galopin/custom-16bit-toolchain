@@ -8,10 +8,9 @@ This document defines the human-readable assembly syntax for the custom 16-bit I
 
 ### General rules
 - One statement per line
-- Instructions use uppercase mnemonics
+- Instructions use mnemonics
 - Operands separated by single spaces
 - No commas between operands
-- Case-sensitive: ADD valid, add invalid
 - Leading/trailing whitespace ignored
 - Blank lines ignored
 
