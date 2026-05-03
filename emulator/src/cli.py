@@ -1,6 +1,6 @@
 import sys
 
-from emulator.src.emulator import Emulator
+from .emulator import Emulator
 
 
 def main():

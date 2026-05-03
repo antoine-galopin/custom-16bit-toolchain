@@ -15,27 +15,25 @@ Current focus:
 - Emulator design and implementation
 - C-like language definition and compiler planning
 
-## Overview
+## Usage
 
-This project is organized around a custom 16-bit architecture.
+### Assembling and running code
 
-Planned toolchain :
+1. Write your assembly code in a `.asm` file (see `examples/asm/`).
+2. Assemble it to binary: `./assemble.py input.asm output.bin`
+3. Run the binary in the emulator: `./emulate.py output.bin output.txt`
+4. Check `output.txt` for final register values and execution summary.
 
-```text
-C-like source code
-    ↓
-Compiler
-    ↓
-Custom assembly
-    ↓
-Assembler
-    ↓
-16-bit binary
-    ↓
-Emulator
+Example:
+```bash
+./assemble.py examples/asm/multiply.asm temp.bin
+./emulate.py temp.bin temp.out
+cat temp.out
 ```
 
-Current instruction set :
+This will show the result of the multiplication in the registers (e.g., R1 contains the result).
+
+## Project status
 - 16-bit fixed-size ISA
 - 16 registers R0 to R15
 - 12 defined opcodes

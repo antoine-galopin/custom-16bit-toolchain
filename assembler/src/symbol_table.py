@@ -1,4 +1,4 @@
-from assembler.src.parser import LABEL_PATTERN
+from .parser import LABEL_PATTERN
 
 def build_label_table(lines):
     labels = {}

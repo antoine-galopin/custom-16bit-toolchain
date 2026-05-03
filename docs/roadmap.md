@@ -6,8 +6,8 @@
   - ISA specification
   - Assembly language specification
   - Assembler implementation and tests
+  - Emulator implementation and tests
 - **Planned**
-  - Emulator
   - C-like language
   - Compiler
 
@@ -36,11 +36,11 @@
 ## Next work
 
 ### Phase 4 - Emulator
-- [ ] Design binary loader
-- [ ] Implement fetch / decode / execute loop
-- [ ] Implement registers and memory
-- [ ] Add execution traces
-- [ ] Add integration tests
+- [x] Design binary loader
+- [x] Implement fetch / decode / execute loop
+- [x] Implement registers and memory
+- [x] Add execution traces
+- [x] Add integration tests
 
 ### Phase 5 - C-like language
 - [ ] Define grammar

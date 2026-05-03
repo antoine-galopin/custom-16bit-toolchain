@@ -1,6 +1,6 @@
 import sys
 
-from assembler import assemble
+from .assembler import assemble
 
 def main():
     if len(sys.argv) != 3:

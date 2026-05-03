@@ -2,8 +2,8 @@
 ; Result will be stored in R3
 
 start:
-LOAD R1 3      ; multiplicand
-LOAD R2 4      ; multiplier
+LOAD R1 4      ; multiplicand
+LOAD R2 5      ; multiplier
 LOAD R3 0      ; result
 LOAD R4 1      ; constant 1
 

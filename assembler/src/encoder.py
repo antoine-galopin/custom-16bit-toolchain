@@ -1,4 +1,4 @@
-from assembler.src.parser import tokenize, parse_immediate
+from .parser import tokenize, parse_immediate
 
 instructions = {
     'ADD': '0001',
