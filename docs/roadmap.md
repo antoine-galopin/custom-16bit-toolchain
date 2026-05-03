@@ -1,48 +1,57 @@
 # Roadmap
 
-## Phase 1 - ISA
+## Current status
 
-- Define registers
-- Define flags
-- Define memory model
-- Define instruction encoding
-- Define intruction set
+- **Completed**
+  - ISA specification
+  - Assembly language specification
+  - Assembler implementation and tests
+- **Planned**
+  - Emulator
+  - C-like language
+  - Compiler
 
-## Phase 2 - Assembly language
+## Completed work
 
-- Define syntax
-- Define labels
-- Define directives
-- Define file format expectations
+### Phase 1 - ISA
+- [x] Define registers
+- [x] Define flags
+- [x] Define memory model
+- [x] Define instruction encoding
+- [x] Define instruction set
 
-## Phase 3 - Assembler
+### Phase 2 - Assembly language
+- [x] Define syntax
+- [x] Define labels and resolution
+- [x] Define comments
+- [x] Decide directive support for v0.1 (none supported)
+- [x] Define file format expectations
 
-- Implement lexer
-- Implement parser
-- Implement label resolution
-- Implement binary generation
-- Add unit tests
+### Phase 3 - Assembler
+- [x] Implement parser and tokenizer
+- [x] Implement label resolution
+- [x] Implement binary generation
+- [x] Add unit tests
 
-## Phase 4 - Emulator
+## Next work
 
-- Load binary files
-- Implement fetch / decode / execute loop
-- Implement regiters and memory
-- Add execution traces
-- Add integration tests
+### Phase 4 - Emulator
+- [ ] Design binary loader
+- [ ] Implement fetch / decode / execute loop
+- [ ] Implement registers and memory
+- [ ] Add execution traces
+- [ ] Add integration tests
 
-## Phase 5 - C-like language
+### Phase 5 - C-like language
+- [ ] Define grammar
+- [ ] Define supported types
+- [ ] Define statements and expressions
+- [ ] Define language limitations
 
-- Define grammar
-- Define supported types
-- Define statements and expressions
-- Define limitations
-
-## Phase 6 - Compiler
-
-- Implement lexer
-- Implement parser
-- Build AST
-- Add semantic checks
-- Generate assembly
-- Add end-to-end tests
+### Phase 6 - Compiler
+- [ ] Implement lexer
+- [ ] Implement parser
+- [ ] Build AST
+- [ ] Add semantic checks
+- [ ] Generate assembly
+- [ ] Add end-to-end tests

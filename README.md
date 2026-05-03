@@ -6,10 +6,14 @@ A personal project to design and implement a custom 16-bit instruction set, an a
 
 Early development.
 
-Current focus :
-- ISA specification
-- Assembly language specification
-- Assembler implementation
+Current status:
+- ISA defined
+- Assembly language specified
+- Assembler implemented and tested
+
+Current focus:
+- Emulator design and implementation
+- C-like language definition and compiler planning
 
 ## Overview
 
